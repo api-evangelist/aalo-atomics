@@ -1,8 +1,28 @@
 aid: aalo-atomics
 name: Aalo Atomics
-description: 'Aalo Atomics is a company surfaced as a portfolio company of kindred-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: climate-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Aalo Atomics is an Austin, Texas-based advanced nuclear engineering company,
+  founded in 2021, working to make reactor deployment fast, repeatable, and economical
+  through factory manufacturing. It is developing the Aalo-1, a factory-fabricated
+  sodium-cooled microreactor (~10 MWe class), and Aalo Pod power plants that combine
+  five Aalo-1 reactors to deliver roughly 50 megawatts of electricity for data centers,
+  industrial facilities, and communities. The company describes a new XMR ("extra
+  modular reactor") category, has raised a $100M Series B, and is advancing through
+  U.S. Nuclear Regulatory Commission pre-application activities and a U.S. Department
+  of Energy experimental microreactor site in Idaho. This API Evangelist profile tracks
+  Aalo Atomics as a company in the network; the company does not currently publish
+  a public developer API.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6a041fc89fb1bebfac0d93d2/6a43a69a78ab10719ce236af_favicon-light-mode.png
 url: https://raw.githubusercontent.com/api-evangelist/aalo-atomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +36,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Climate Tech
+- Nuclear Energy
+- Advanced Nuclear
+- Microreactor
+- Small Modular Reactor
+- Clean Energy
+- Data Center Power
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aalo-atomics-domain-security.yml
 - type: Website
   url: https://aalo.com/
+- type: Blog
+  url: https://www.aalo.com/updates
+- type: Support
+  url: https://www.aalo.com/contact
+- type: TermsOfService
+  url: https://www.aalo.com/legal
+- type: PrivacyPolicy
+  url: https://www.aalo.com/legal
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
