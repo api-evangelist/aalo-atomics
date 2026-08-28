@@ -11,6 +11,17 @@ description: 'Aalo Atomics is an Austin, Texas-based advanced nuclear engineerin
   of Energy experimental microreactor site in Idaho. This API Evangelist profile tracks
   Aalo Atomics as a company in the network; the company does not currently publish
   a public developer API.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
